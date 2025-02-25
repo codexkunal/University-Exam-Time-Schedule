@@ -28,42 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Features Section */}
-        <section className="container py-12 md:py-24 lg:py-32">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
-            Why Choose ExamTime?
-          </h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col items-center text-center p-6 bg-background/60 backdrop-blur rounded-lg border">
-              <Clock className="h-12 w-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Time-Saving</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Generate complete schedules in minutes instead of hours or days
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-6 bg-background/60 backdrop-blur rounded-lg border">
-              <Users className="h-12 w-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Conflict Resolution</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Automatically avoid student and faculty scheduling conflicts
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-6 bg-background/60 backdrop-blur rounded-lg border">
-              <BookOpen className="h-12 w-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Easy to Use</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Simple interface designed for educational institutions
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-6 bg-background/60 backdrop-blur rounded-lg border">
-              <Calendar className="h-12 w-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Flexible Scheduling</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Customize time slots, rooms, and faculty assignments
-              </p>
-            </div>
-          </div>
-        </section>
+      
       </div>
     </main>
   );
