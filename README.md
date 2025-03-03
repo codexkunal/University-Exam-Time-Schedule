@@ -5,6 +5,7 @@ The University Exam Time Table Scheduler is a smart scheduling system designed t
 
 🔹 Features
 ✅ Automated Scheduling – Generates an optimized exam timetable based on predefined constraints.
+
 ✅ Conflict Resolution – Ensures no clashes in exam schedules for students and faculty.
 ✅ Customizable Parameters – Adjust exam duration, slots, and constraints as needed.
 ✅ Efficient Resource Allocation – Assigns rooms and invigilators optimally.
